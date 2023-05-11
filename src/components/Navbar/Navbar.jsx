@@ -1,4 +1,4 @@
-import "./Navbar.css"
+import "./Navbar.scss"
 import logo from '../../assets/sho.svg'
 import CartWidget from "../CartWidget/CartWidget"
 
