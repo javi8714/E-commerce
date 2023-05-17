@@ -5,7 +5,6 @@ export const useProductos = () => {
     const [productos, setProductos] = useState([])
     const [loading, setLoading] = useState(true)
 
-
     useEffect(() => {
         setLoading(true)
 

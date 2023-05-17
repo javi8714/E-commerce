@@ -2,8 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 import { Navbar } from "./components/Navbar/Navbar";
-import  Catalogo1  from './otros/Catalogo1';
-import { BrowserRouter } from 'react-router-dom';
+import  Nosotros from './otros/hoc/Nosotros';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+
 
 
 function App() {
@@ -12,8 +13,14 @@ function App() {
     <BrowserRouter>
          <Navbar />
 
-         <Catalogo1 />
-         <ItemListContainer />
+        <Routes>
+          <Route path='/' element={ < ItemListContainer /> } /> 
+          <Route path='/productos/:categotyId' element={ < ItemListContainer /> } />
+          <Route path='/detail/:itemID' element={< ItemListContainer />} /> 
+          <Route path='/nosotros' element={ < Nosotros /> } /> 
+          <Route path='*' element={ < Navigate to={"/"} /> } /> 
+        </Routes>
+
     </BrowserRouter>
   );  
 }

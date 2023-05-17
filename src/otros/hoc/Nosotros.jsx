@@ -2,16 +2,16 @@ import { withProductsData } from "./withProductsData"
 
 
 
-const Catalago1 = ({productos, Loading}) => {
+const Nosotros = ({productos, Loading}) => {
     console.log(productos)
 
     return (
         <div>
-            <h2>Catalogo1</h2>
+            <h2>Nosotros</h2>
             <hr />
         </div>
 
     )
 }
 
-export default withProductsData(Catalago1)
+export default withProductsData(Nosotros)
