@@ -1,4 +1,4 @@
 # PreEntrega2Moreno
-aca dejo la segunda entrega de Reatjs tema 
-pero no llegue a terminar ya que no sale un error y no puede finalizar del tema navegacion.
+Aca dejo la segunda entrega del Proyeco Ecommerce React js
+hice todo pero algo anda mal en la nevegacion.
 gracias
