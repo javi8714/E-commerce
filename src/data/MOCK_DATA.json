@@ -1,0 +1,275 @@
+[{
+   "id": 1,
+    "nombre": "Emilia Nieto Senetiner Malbec",
+    "descripcion": "Desrasponado. Molienda. Enfriado a 12º C. Encubado. Separación. Elevación de la temperatura. Maceración durante 1 hora . Fermentación a temperatura controlada de 18° C., durante la cual se realizan dos remontajes diarios. Descube . Trasiegos. Selección de los mejores lotes por degustación. Estabilización: y filtración.",
+    "precio": 1400,
+    "img": "../../public/assets/emilia_nieto_small.png",
+    "stock": 24,
+    "category": "tintos"
+  }, {
+   "id": 2,
+   "nombre": "Saint Felicien Malbec 375 ml",
+   "descripcion": "Saint Felicien Malbec es un vino elegante y complejo, de color violeta oscuro y profundo, típico de los malbecs argentinos.A la nariz, intenso y concentrado, presenta aromas de moras maduras con notas ligeras de vainilla, tabaco y licor.",
+   "precio": 2490,
+   "img": "../../public/assets/saint_felicien_malbec_small.png",
+   "stock": 34,
+   "category": "tintos"
+  }, {
+    "id": 3,
+    "nombre": "Postales Del Fin del Mundo Malbec",
+    "descripcion": "Vino muy frutado, de entrada amable, taninos suaves, de buen cuerpo y largo final de boca.",
+    "precio": 912,
+    "img": "../../public/assets/postales_mundo_small.png",
+    "stock": 9,
+    "category": "tintos"
+  }, {
+  "id": 4,
+   "nombre": "La Linda Malbec",
+    "descripcion": "En boca se perciben taninos equilibrados debido a 3 meses de añejamiento en roble francés. Aterciopelado. De buena estructura, fino, moderno.",
+    "precio": 2516,
+    "img": "../../public/assets/la_linda_malbec_small.png",
+    "stock": 35,
+   "category": "tintos"
+  }, {
+    "id": 5,
+    "nombre": "Nocheterna Generoso de Syrah",
+    "descripcion": "ista: Vino tinto de color morado con reflejos pardos, de buena intensidad, de piernas anchas y lentas, que denotan su graduación alcohólica. Se encuentran aromas a frutas, frescas y secas, algo avainillado, fresco y agradable, higos y membrillos maduros a pasificados, algo de nuez y almendras. Aromas de complejidad producto de su paso por Roble Americano.",
+    "precio": 1548,
+    "img": "../../public/assets/nocheterna_gene_small.png",
+    "stock": 24,
+    "category": "tintos"
+  }, {
+    "id": 6,
+    "nombre": "Latitud 33 Chardonnay",
+    "descripcion": "Color: Amarillo dorado pálido con ligeros reflejos verdes. Intenso, se destacan frutas tropicales como ananá, banana, durazno y toques cítricos a mandarina, presenta ligeras notas a vainilla y tostado debido a su crianza en madera. Expresa la frescura y delicadeza de la fruta madura del Chardonnay proveniente de las zonas frías de Mendoza.",
+    "precio": 1269,
+    "img": "../../public/assets/latitud_33_char_small.png",
+    "stock": 35,
+    "category": "blancos"
+  }, {
+    "id": 7,
+    "nombre": "RD Sauvignon Blanc",
+     "descripcion": "Finca Tacuil, Valle Calchaquí. Provincia de Salta, Argentina",
+    "precio": 4845,
+    "img": "../../public/assets/rd_blanc_small.png",
+    "stock": 18,
+    "category": "blancos"
+  }, {
+    "id": 8,
+    "nombre": "López Semillón 375 ml",
+    "descripcion": "Presenta un color amarillo sostenido, de aromas florales y discretos, acidez moderada.En boca se revela amplio y voluminoso.",
+    "precio": 940,
+    "img": "../../public/assets/lopez_semillon_small.png",
+    "stock": 27,
+    "category": "blancos"
+  }, {
+    "id": 9,
+    "nombre": "Amalaya Blanco Blend",
+    "descripcion": "olor Dorado intenso con bordes verdes. Aromas Intensos y complejos donde se destaca el pomelo, jazmín y una nota mineral.Sabor delicado y sedoso con gran frescura y excelente acidez. Sabroso con un final mineral.",
+    "precio": 4810,
+    "img": "../../public/assets/amalaya_blanco_small.png",
+    "stock": 25,
+    "category": "blancos"
+  }, {
+    "id": 10,
+    "nombre": "Beagle Golden Ale Cerveza 330 ml",
+    "descripcion": "La Cerveza Golden Ale es, como su nombre lo indica, de color dorado.Tiene aroma a malta y fruta proveniente de la levadura tipo Ale, y es de cuerpo medio con complejos sabores a malta y lúpulos de la Patagonia.",
+    "precio": 648,
+    "img": "../../public/assets/cerveza_beagle_small.png",
+    "stock": 54,
+    "category": "cervezas"
+  }, {
+    "id": 11,
+    "nombre": "Clausthaler Cerveza sin alcohol 330 ml",
+    "descripcion": "Cerveza sin alcohol rubia pajiza tiene un sabor natural ,con bouquet y aroma a malta dulce y un regusto ligeramente amargo, que no perdura durante mucho tiempo.",
+    "precio": 11490,
+    "img": "../../public/assets/claust_cerveza_small.png",
+    "stock": 41,
+    "category": "cervezas"
+  }, {
+   "id": 12,
+    "nombre": "Temple Cósmica Cerveza Lata 473 ml",
+    "descripcion": "Una lager lupulada, aromática, fresca y de bajo amargor.Es de turbidez media, con un amargor suave y a la vez fresca y sabrosa. Es una single Hop de Galaxy, un lúpulo australiano increíble, que nos permite ir descubriendo sus sabores a frutas y cítricos.Las lagers están encasilladas como refrescantes y limpias, pero pueden ser mucho más que eso.",
+    "precio": 548,
+    "img": "../../public/assets/temple_cosmica_small.png",
+    "stock": 65,
+    "category": "cervezas"
+  }, {
+    "id": 13,
+    "nombre": "Corona Cerveza Lata 269 ml",
+    "descripcion": "Corona es única porque tiene un color inconfundible, un sabor incomparable y en definitiva no tiene igual.Si buscas momentos inolvidables Corona es sin duda para ti, porque todas y las más grandes experiencias están envasadas en la botella de la cerveza más famosa del mundo.",
+    "precio": 363,
+    "img": "../../public/assets/corona_cerveza_269_default_small.png",
+    "stock": 80,
+    "category": "cervezas"
+  }, {
+   "id": 14,
+   "nombre": "Grolsch Cerveza 450 ml",
+   "descripcion": "Color dorado bastante profundo con una cabeza blanca.En nariz hay presencia de lúpulo, notas vegetales picantes y un toque de pan tostado.En el paladar hay un bonito juego entre lúpulo amargo y una cierta dulzura en el acabado, hay un buen apoyo a la nota de malta que añade peso.",
+   "precio": 14778,
+   "img": "../../public/assets/grolsh_cerveza_small.png",
+   "stock": 16,
+   "category": "cervezas"
+  }, {
+    "id": 15,
+    "nombre": "Salentein Reserva Rosado",
+    "descripcion": "Su color es rosado pálido y brillante, resultado de su corta maceración.En la nariz se perciben intensos aromas a frutas frescas con sutiles notas florales.En la boca es frutado, con una equilibrada acidez, de final fresco y persistente.",
+    "precio": 3000,
+    "img": "../../public/assets/salentein_rosado_small.png",
+    "stock": 28,
+    "category": "rosados"
+  }, {
+    "id": 16,
+    "nombre": "Humberto Canale Blush",
+    "descripcion": "Atractivo color salmon, aroma a notas frutales como guindas, cerezas y frambuesas.En boca se percibe suave, sedoso, armónico y amable.",
+    "precio": 1548,
+    "img": "../../public/assets/humberto_canale_small.png",
+    "stock": 25,
+    "category": "rosados"
+  }, {
+    "id": 17,
+    "nombre": "Elementos Rosado de Torrontés",
+    "descripcion": "Logra su tono salmón gracias a la cofermentación del Torrontés con un 7% de Malbec, lo que no sólo le da color, sino que lo hace aún más frutal y le agrega esa entrada apenas dulzona en boca.Los aromas florales y herbáceos de nuestra cepa blanca nacional terminan de redondear un vino fresco y de baja graduación alcohólica.",
+    "precio": 1068,
+    "img": "../../public/assets/elementos_rosado_torrontes_small.png",
+    "stock": 35,
+    "category": "rosados"
+  }, {
+    "id": 18,
+    "nombre": "Tempus Rosado de Malbec",
+    "descripcion": "Cosecha: Manual en cajas plásticas de 18 kgs. Elaboración: Luego de una maceración de una noche, es fermentado en tanques de acero inoxidable a temperatura controlada de 16 ºC. Fermentación maloláctica natural.",
+    "precio": 2994,
+    "img": "../../public/assets/tempus_rosado_small.png",
+    "stock": 30,
+    "category":"rosados"
+  }, {
+    "id": 19,
+    "nombre": "Rosell Boher Rosé",
+    "descripcion": "Presenta un color rojo suave con tonos rubí, brillante, espuma persistente y burbujas pequeñas en la nariz intensos aromas frutales como cerezas, frambuesas, cítricos, ananá, coco y algo de pan tostado y levadura.",
+    "precio": 10400,
+    "img": "../../public/assets/rosell_boher_small.png",
+    "stock": 26,
+    "category": "espumantes"
+  }, {
+    "id": 20,
+    "nombre": "Finca Natalina Extra Brut",
+    "descripcion": " De color amarillo con reflejos dorados verdosos. Limpio y brillante, de burbuja intermedia continua la que denota su método de elaboración.Frutal, cítrico, fresco e intenso. Aromas a durazno, manzana verde, flores blancas, miel.",
+    "precio": 1011,
+    "img": "../../public/assets/finca_natalina_ext_small.png",
+    "stock": 46,
+    "category": "espumantes"
+  }, {
+    "id": 21,
+    "nombre": "Domaine Bousquet Brut",
+    "descripcion": "De color amarillo verdoso con delicadas burbujas.De aromas cítricos a manzanas y frutas tropicales.",
+    "precio": 3375,
+    "img": "../../public/assets/domaine_brut_small.png",
+    "stock": 14,
+    "category": "espumantes"
+  }, {
+    "id": 22,
+    "nombre": "Chandon Délice",
+    "descripcion": "Chandon Délice está elaborado con las variedades tradicionales de Chandon y de la región de la Champagne francesa: Chardonnay y Pinot Noir, sumando al corte un Semillón tardío y una variedad del sur de Francia, muy antigua y misteriosa, llamada Petit Manseng, cosechadas después de las primeras heladas de otoño, y que por su madurez y concentración de gusto y sabor, le aportan al vino equilibrio de fruta, sucrosidad y viveza.",
+    "precio": 2583,
+    "img": "../../public/assets/chandon_delice_small.png",
+    "stock": 45,
+    "category": "espumantes"
+  }, {
+    "id": 23,
+    "nombre": "Mariflor Merlot",
+    "descripcion": "Un vino complejo, lleno de matices, que tuvo una crianza de 15 meses en barricas de roble francés y una prolongada estiba en botella.Un vino que va a evolucionar muy bien en los próximos años.",
+    "precio": 7048,
+    "img": "../../public/assets/mariflor_merlot_small.png",
+    "stock": 43,
+    "category": "tintos"
+  }, {
+    "id": 24,
+    "nombre": "Solito Va Semillón",
+    "descripcion": "Presenta un color amarillo pajizo con reflejos naranja tenues. Nariz compleja y fresca. Se perciben notas herbales, durazno, naranja y ciertas notas minerales. En boca es elegante, expresivo y sutil. Su entrada en boca es fresca y amable, su acidez está bien presente y su persistencia en boca es media.",
+    "precio": 1914,
+    "img": "../../public/assets/solito_semillon_small.png",
+    "stock": 38,
+    "category": "blancos"
+  }, {
+    "id": 25,
+    "nombre": "Quilmes Cerveza sin alcohol Lata 473 ml",
+    "descripcion": "La Cerveza Quilmes 0.0% es una cerveza fresca, de cuerpo liviano y reducida en carbohidratos. Una cerveza Rubia elaborada con ingredientes naturales y nada de alcohol.",
+    "precio": 480,
+    "img": "../../public/assets/quilmes_473_small.png",
+    "stock": 65,
+    "category": "cervezas"
+  }, {
+    "id": 26,
+    "nombre": "El Abuelo Moscato",
+    "descripcion": "l moscato es un vino dulce natural hecho de uva moscatel, ya muy madura y soleada y sometida a fermentación alcohólica parcial.",
+    "precio": 900,
+    "img": "../../public/assets/el_abuelo_moscato_small.png",
+    "stock": 46,
+    "category": "blancos"
+  }, {
+    "id": 27,
+    "nombre": "Goye Sauvignon Blanc",
+    "descripcion": "Amarillo de tonos verdes y de reflejos brillantes. Presenta vivacidad y elegancia cromática. De aroma intenso, con frutas tropicales y algo de pomelo; muy agradable.",
+    "precio": 1120,
+    "img": "../../public/assets/goye_sauvig_small.png",
+    "stock": 49,
+    "category": "blancos"
+  }, {
+    "id": 28,
+    "nombre": "Crux Roxé",
+   "descripcion": "Presenta un color salmón pálido, con destellos rojos brillantes; de nariz compleja, que rememora a moras, cerezas silvestres y rosas; y de buen volumen en boca, con una acidez balanceada que le da frescura y estructura.",
+    "precio": 2465,
+    "img": "../../public/assets/crux_rose_small.png",
+    "stock": 45,
+    "category": "rosados"
+  }, {
+   "id": 29,
+    "nombre": "Guinness Cerveza 330 ml",
+    "descripcion": "Aroma: Cebada tostada, caramelo de dulce de leche, tofe y grosella negra.Presenta sabor a Café tostado con gran cuerpo, con matices de chocolate amargo, regaliz, melaza y bayas.",
+    "precio": 450,
+    "img": "../../public/assets/guiness_cerveza_330ml_small.png",
+    "stock": 8,
+    "category": "cervezas"
+  }, {
+    "id": 30,
+    "nombre": "Cava de Vino Vondom 6 Botellas T6 Acero",
+    "descripcion": "Capacidad 6 botellas con una Temperatura: 12 °C a 18 °C de estética moderna. Con puerta de vidrio espejado con marco de acero inoxidable, control de temperatura TOUCH, luz led azul interior, digitales. Silenciosa, ausente de vibraciones. Con garantía.Medidas: 26 cm (ancho) x 38 cm (alto) x 50 cm (profundidad).",
+    "precio": 92000,
+    "img": "../../public/assets/cava_vino_vomdom_6_small.png",
+    "stock": 10,
+    "category": "cavas"
+  }, {
+    "id": 31,
+    "nombre": "Cava de Vino Vondom 50 Botellas con Motor Compresor C50 Negra",
+    "descripcion": "Este modelo cuenta con motor compresor y permite conservar en condiciones óptimas de guarda hasta 50 botellas estándar de 750ml y 30cm. Es especifica para Vinos Tintos.Dada sus medidas es ideal para colocar sobre el piso en cualquier ambiente de su casa, agregando de esta manera sofisticación y elegancia a su hogar.",
+    "precio": 255000,
+    "img": "../../public/assets/cava_vondom_50b_small.png",
+    "stock": 13,
+    "category": "cavas"
+  }, {
+    "id": 32,
+    "nombre": "Cava de Vino Vondom 18 Botellas T18 Negra",
+    "descripcion": "Temperatura: 12 °C a 18 °c de estética moderna. Con puerta de vidrio espejado, control de temperatura TOUCH, luz azul interior, digitales. Silenciosa, ausente de vibraciones. Cava termoleléctrica. Con garantía y medidas de 34 cm (ancho) x 64,2 cm (alto) x 51 cm (profundidad)",
+    "precio": 106000,
+    "img": "../../public/assets/cava_vondom_18b_small.png",
+    "stock": 12,
+    "category": "cavas"
+  }, {
+    "id": 33,
+    "nombre": "Cava de Vino Vondom 28 Botellas T28 Negra",
+    "descripcion": "Características: De estética moderna. Con puerta de vidrio espejado, control de temperatura TOUCH, luz azul interior, digitales. Silenciosa, ausente de vibraciones. Cava termoleléctrica. Con garantía.Medidas: 43 cm (ancho) x 72,6 cm (alto) x 51 cm (profundidad).",
+    "precio": 132000,
+    "img": "../../public/assets/cava_vondom_28b_small.png",
+    "stock": 12,
+    "category": "cavas"
+  }, {
+    "id": 34,
+    "nombre": "Julia Dulce Natural",
+    "descripcion": "Color salmón elegante con burbujas finas y persistentes con aromas a Frutas frescas como fresas, naranja, piña, mango.Sabor: Cremoso y refrescante. Buen volumen en boca. Bien equilibrado, limpio y largo final.",
+    "precio": 2900,
+    "img": "../../public/assets/julia_dulce_natu_small.png",
+    "stock": 20,
+    "category": "espumantes" 
+}]
+
+

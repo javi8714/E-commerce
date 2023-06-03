@@ -1,12 +1,26 @@
+import { useEffect } from "react"
 import { withProductsData } from "./withProductsData" 
 
 
 
 const Nosotros = ({productos, Loading}) => {
-    console.log(productos)
+    
+    const handleclickear = (event) => {
+        console.log(event)
+    }
+
+    useEffect(() => {
+        window.addEventListener('click', handleclickear) 
+
+        return () => {
+            window.removeEventListener('click', handleclickear)
+        }
+
+    }, [])
+
 
     return (
-        <div>
+        <div className="container my-5" oneClick={clickear}>
             <h2>Nosotros</h2>
             <hr />
         </div>

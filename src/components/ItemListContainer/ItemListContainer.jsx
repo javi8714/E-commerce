@@ -1,44 +1,46 @@
 import { useEffect } from "react"
-import "./ItemListContainer.scss"
-import { useState } from "react"
-import { pedirDatos } from "../../util/pedirDatos"
 import ItemList from "../ItemList/ItemList"
-import { useProductos } from "../../hooks/useProductos"
-import { useParams } from "react-router-dom"
+import { useState } from "react"
+import { useParams  } from "react-router-dom"
+import { collection, getDocs, query, where } from 'firebase/firestore'
+import { db } from '../../firebase/config'
+import Loader from "../Loader/Loader"
+
+
 
 
 
 export const ItemListContainer = () => {
-
-   // const { loading, productos } = useProductos()
-
    const [productos, setProductos] = useState([])
    const [loading, setLoading] = useState(true)
-
-   const { categoryId } = useParams()
-   console.log(categoryId)
+  
+    const { categoryId } = useParams()
     
     useEffect(() => {
         setLoading(true)
 
-        pedirDatos()
-            .then((data) => {
-                if (!categoryId) {
-                    setProductos(data)
-                } else {
-                    setProductos(data.filter((el) => el.category === categoryId) )
-                }      
+        const productosRef = collection(db, "productos")
+        const qu = categoryId
+                    ? query(productosRef, where("category", "==", categoryId))
+                    : productosRef
+        getDocs(qu)
+            .then((res) => {
+                const docs = res.docs.map((doc) => {
+                    return {
+                        ...doc.data(),
+                        id: doc.id
+                    }    
+                })
+                setProductos(docs)
             })
-            .catch((error) => console.log(error))
-            .finally(() => setLoading(false))
+            .catch(e => console.log(e))
+            .finally(() => setLoading (false))
     }, [categoryId])
-
 
     return (
         <div className="container my-5">
-            {
-              loading
-                ? <h2> Cargando.....</h2>
+            {loading
+                ? <Loader />
                 : <ItemList items={productos}/>
             }          
         </div>

@@ -1,4 +1,4 @@
-import ItemCard from "../itemCard/itemCard"
+import ItemCard from "../ItemCard/ItemCard"
 
 
 

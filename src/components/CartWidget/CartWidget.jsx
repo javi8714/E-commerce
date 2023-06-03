@@ -1,12 +1,19 @@
-import logo from '../../assets/sho.svg'
+import  { TiShoppingCart } from 'react-icons/ti'
+import './CartWidget.scss'
+import { Link } from 'react-router-dom'
+import { useContext } from 'react'
+import { CartContext } from '../../context/CartContext'
+
 
 const CartWidget = () => {
+    const { cart, totalCantidad } = useContext(CartContext)
+
 
      return (
-        <div>
-            <img src={logo}/>
-            <span>0</span>
-        </div>
+        <Link to="/cart" className={`cart-widget ${cart.length > 0 ? 'cart-widget-on' : ''}`}>
+            <TiShoppingCart />
+            <span>{totalCantidad()}</span>
+        </Link>
     )
 }
 
